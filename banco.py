@@ -1,11 +1,15 @@
-from configparser import NoSectionError
+"""
+    Banco Imobiliário Simples.
+
+    by Daniel Faustino. 2022-07-12.
+"""
+
 from random import randint, getrandbits, shuffle
 from dataclasses import dataclass
 from typing import List
 from collections import Counter
 import operator
 from Dados import propriedades
-
 
 @dataclass
 class Comportamento:
